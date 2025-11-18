@@ -70,5 +70,3 @@ export default function CountDown() {
         </div>
     );
 }
-
-//editname CountDown
