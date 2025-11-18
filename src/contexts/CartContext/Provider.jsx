@@ -1,7 +1,7 @@
 import { useEffect, useReducer } from "react";
 import PropTypes from "prop-types";
 import CartContext from "./Context";
-import reducer, { ACTIONS } from "./reducer";
+import reducer, { ACTIONS } from "../../pages/ShoppingCart/reducer";
 const LOCAL_KEY = "cart";
 const initialState = {
     items: [],
